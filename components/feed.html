@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK</title>
+    <link rel="stylesheet" href="./user.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script>
+    function SubForm (){
+        $.ajax({
+            url:"https://api.apispreadsheets.com/data/IlMc4sXXp2DFoPTU/",
+            type:"post",
+            data:$("#myForm").serializeArray(),
+            success: function(){
+                alert("Thanks For User Values :)")
+            },
+            error: function(){
+                alert("There was an error :(")
+            }
+        });
+    }
+</script>
+</head>
+<body>
+    <div class="header">
+        <img src="./head.jpg" class="logo">
+        <h1>HEALTHY SPIRITS</h1>
+    </div>
+    <div class="menu">
+        <button class="button home" onclick="location.href='../index.html'">Home</button>
+        <button class="button phy" onclick="location.href='./phy.html'">Physical Illness</button>
+        <button class="button men" onclick="location.href='./men.html'">Mental Illness</button>
+        <button class="button is" onclick="location.href='./info.html'">Info</button>
+        <button class="button con" onclick="location.href='./contact.html'">Contact Us</button>
+    </div>
+    <div class="scr">
+        <marquee class="at">Science of yoga and ayurveda is subtler than the science of medicine, because science of medicine is often victim of statistical manipulation.    The purpose of science is not down-scaling everything to physical level and measure, but to penetrate deeper into the realm beyond the sensory perceptions and bring more in-depth knowledge and wisdom to the world.</marquee>
+    </div>
+    <div class="main">
+        <form id="myForm" class="myform">
+            <input name="illness" type="text" id="ill" class="s" placeholder="Enter urName">
+            <input name="remedy" type="reme" id="re" class="s"placeholder="Enter rating from 0 to 5">
+        </form>
+        <button  class="submit" onclick="SubForm()">SUBMIT</button>
+    </div>
+    <div class="credits">
+        HEALTHY SPIRITS is optimized for learning.Remidies might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
+        Copyright 1999-2022 by Refsnes Data. All Rights Reserved.
+    </div>
+    <script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/IlMc4sXXp2DFoPTU/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Thanks For User Values :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
+</body>

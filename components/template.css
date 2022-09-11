@@ -1,0 +1,190 @@
+body{
+    margin:0;
+    background-color: antiquewhite;
+}
+.header{
+    background-color: rgb(48, 135, 48);
+    width:100%;
+    height:115px;
+    position:absolute;
+    text-align: center;
+}
+.menu{
+    background-color: green;
+    width:100%;
+    height:50px;
+    position: relative;
+    top:115px;
+    text-align: center;
+}
+.logo{
+    position: relative;
+    width:75px;
+    height:75px;
+    left:-250px;
+    top:25px;
+    border-radius: 50%;
+    border-style: solid;
+}
+h1{
+    position: relative;
+    top:-80px;
+    left:50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    background-color: green;
+    border-width: 0;
+    width:150px;
+    height: 50px;
+    color:black;
+    left:50px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(23, 168, 23);
+}
+.scr{
+    position: relative;
+    width: 100%;
+    height:50px;
+    background-color: antiquewhite;
+    top:115px;
+}
+.at{
+    position: relative;
+    top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:red
+}
+.start{
+    top:120px;
+    position: relative;
+    width:100%;
+    height:600px;
+    background-color: aliceblue;
+}
+.intro{
+    position: relative;
+    width:800px;
+    height:500px;
+    left:50px;
+    top:50px;
+
+}
+.pic{
+    width:400px;
+    height: 400px;
+    position: relative;
+    left:1000px;
+    top:-400px;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+.pic:hover{
+    width:450px;
+    height:450px;
+    left:975px;
+    top:-425x;
+    right:-25px;
+    bottom:25px;
+}
+.f{
+    color:black;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.lite{
+    color:red;
+    font-size: 25px;
+}
+.sym{
+    position: relative;
+    width:100%;
+    height:600px;
+    background-color:antiquewhite;
+    top:120px;
+}
+.remedies{
+    top:120px;
+    position: relative;
+    width:100%;
+    height:600px;
+    background-color: aliceblue;
+}
+.credits{
+    border-top: 2px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: black;
+    border-style: solid;
+    top:100px;
+    position: relative;
+    width:100%;
+    height:50px;
+    text-align: center;
+}
+.new{
+    top:120px;
+    width:100%;
+    height:800px;
+    background-color:antiquewhite;
+    position: relative;
+}
+.nr{
+    width:150px;
+    height:50px;
+    column-gap: 0;
+    position: relative;
+    left:600px;
+    top:100px;
+    background-color: aquamarine;
+}
+.nr:hover{
+    background-color: greenyellow;
+}
+.form{
+    top:150px;
+    left:150px;
+    width:1200px;
+    height:500px;
+    position: relative;
+}
+.say{
+    width:600px;
+    height: 400px;
+    position: relative;
+    left:100px;
+    top:50px;
+}
+.n{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    left:900px;
+    top:-200px;
+    background-color:aquamarine;
+    cursor: pointer;
+}
+.n:hover{
+    background-color: greenyellow;
+}
+.ee{
+    text-align: center;
+    font-size: 25px;
+    align-content: center;
+}
+.ad{
+    position: relative;
+    top:100px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center{
+    position: relative;
+    top:-25px;
+}
+

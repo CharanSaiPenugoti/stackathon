@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="./components/style.css">
+    <!--<script src="./components/script.js"></script>--->
+    <!--<style>
+        body{
+            margin:0;
+
+        }
+        .header{
+            background-color: rgb(48, 135, 48);
+            width:100%;
+            height:115px;
+            position:absolute;
+        }
+        .menu{
+            background-color: green;
+            width:100%;
+            height:50px;
+            position: relative;
+            top:100%;
+        }
+    </style>--->
+</head>
+<body>
+    <div class="header">
+        <img src="./components/head.jpg" class="logo">
+        <h1>HEALTHY SPIRITS</h1>
+    </div>
+    <div class="menu">
+        <button class="button home" onclick="location.href='./index.html'">Home</button>
+        <button class="button phy" onclick="location.href='./components/phy.html'">Physical Illness</button>
+        <button class="button men" onclick="location.href='./components/men.html'">Mental Illness</button>
+        <button class="button is" onclick="location.href='./components/info.html'">Info</button>
+        <button class="button con" onclick="location.href='./components/info.html'">Contact Us</button>
+    </div>
+    <div class="scr">
+        <marquee class="at">Science of yoga and ayurveda is subtler than the science of medicine, because science of medicine is often victim of statistical manipulation.    The purpose of science is not down-scaling everything to physical level and measure, but to penetrate deeper into the realm beyond the sensory perceptions and bring more in-depth knowledge and wisdom to the world.</marquee>
+    </div>
+    <div class="attract">
+        <div class="cha">
+            <div class="emoji open active">😞</div>
+            <div class="emoji close">😃</div>
+        </div>
+        <div class="ins"><span class="info i">Click on the emoji and spread the happiness and start smiling because you are in the right website!!</span></div>
+    </div>
+    <span id="magic">
+    </span>
+    <div class="credits">
+        HEALTHY SPIRITS is optimized for learning.Remidies might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
+        Copyright 1999-2022 by Refsnes Data. All Rights Reserved.
+    </div>
+    <script>
+        const open=document.querySelector('.open')
+        const close=document.querySelector('.close')
+        open.addEventListener('click',()=>{
+            if(close.classList.contains('close')){
+                close.classList.add('active')
+                let mag=document.getElementById("magic").innerHTML="<div class=\"int\"><div class=\"kn\"><span class=\"info size\"><span class=\"lite\">What is Ayurveda\?</span><br><br>Ayurveda, a natural system of medicine, originated in India more than 3,000 years ago. The term Ayurveda is derived from the Sanskrit words ayur (life) and veda (science or knowledge)\. Thus, Ayurveda translates to knowledge of life. Based on the idea that disease is due to an imbalance or stress in a person's consciousness, Ayurveda encourages certain lifestyle interventions and natural therapies to regain a balance between the body, mind, spirit, and the environment\.Ayurveda treatment starts with an internal purification process, followed by a special diet, herbal remedies, massage therapy, yoga, and meditation\.The concepts of universal interconnectedness, the body's constitution (prakriti), and life forces (doshas) are the primary basis of ayurvedic medicine. Goals of treatment aid the person by eliminating impurities, reducing symptoms, increasing resistance to disease, reducing worry, and increasing harmony in life. Herbs and other plants, including oils and common spices, are used extensively in Ayurvedic treatment.</span> </div><img src=\"./components/ayurveda.jpg\" class=\"knim\"></div><div class=\"use\"><div class=\"info size be\"><span class=\"lite\">Ayurveda Improves the Quality of Your Daily Life<br></span><ul><li>Ayurveda is a choice of lifestyle, which when adopted in its entirety, brings a wave of general well-being to your daily life.<li>Exercising, having an active lifestyle, adequate sun exposure, appropriate treatments and emotional well-being help to cleanse the mind and spirit. This leaves you with a healthy mind and glowing skin.</li><li>Ayurveda works in perfect harmony with alternative medicine so it is practical for everyday use.</li> <li>Ayurveda helps reclaim health with balanced dietary guidelines, effective sleep patterns, home remedies, daily and seasonal routines, yoga, and exercise patterns.</li> <li>Heightened concentration levels through yoga, meditation, herbal intake, and adequate sleep helps re-calibrate mental and goal-based settings in your daily life.</li> <li>Ayurvedic treatments improve digestion and increase appetite and immunity.</li> <li>The basic principles of Ayurveda constitute the following disciplines – don’t skip breakfast, eat a light dinner, avoid sleeping and waking up late, drink water, eat organic produce, avoid smoking and drinking, and maintain an active lifestyle.</li></ul></div><img=src\"\"></div>"
+                open.classList.remove('active')
+            }
+        })
+
+        close.addEventListener('click',()=>{
+            if(open.classList.contains('open')){
+                open.classList.add('active')
+                let mag=document.getElementById("magic").innerHTML=""
+                close.classList.remove('active')
+            }
+        })
+    </script>
+</body>
+</html>

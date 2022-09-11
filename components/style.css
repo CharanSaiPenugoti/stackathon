@@ -1,0 +1,261 @@
+body{
+    margin:0;
+    background-color: antiquewhite;
+}
+.header{
+    background-color: rgb(48, 135, 48);
+    width:100%;
+    height:115px;
+    position:absolute;
+    text-align: center;
+}
+.menu{
+    background-color: green;
+    width:100%;
+    height:50px;
+    position: relative;
+    top:115px;
+    text-align: center;
+}
+.logo{
+    position: relative;
+    width:75px;
+    height:75px;
+    left:-250px;
+    top:25px;
+    border-radius: 50%;
+    border-style: solid;
+}
+h1{
+    position: relative;
+    top:-80px;
+    left:50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    background-color: green;
+    border-width: 0;
+    width:150px;
+    height: 50px;
+    color:black;
+    left:50px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(23, 168, 23);
+}
+.attract{
+    position: relative;
+    width:100%;
+    height:500px;
+    background-color: aliceblue;
+    top:115px;
+}
+.scr{
+    position: relative;
+    width: 100%;
+    height:50px;
+    background-color: antiquewhite;
+    top:115px;
+}
+.at{
+    position: relative;
+    top:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:red
+}
+.cha{
+    position: relative;
+    width:400px;
+    height:400px;
+    left:300px;
+    top:50px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius: 15px;
+    border-color:aliceblue;
+    border-width: 3px;
+    border-style: solid;
+}
+.ins{
+    position: relative;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    width: 500px;
+    height:400px;
+    left:800px;
+    top:-350px;
+}
+.ins{
+    text-align: center;
+}
+.info{
+    position: relative;
+    top:120px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.emoji{
+    font-size: 10em;
+    cursor: pointer;
+    user-select:none;
+}
+.close{
+    display:none;
+}
+.open{
+    display:none;
+}
+.active{
+    display:block;
+}
+.int{
+    top:115px;
+    position: relative;
+    width:100%;
+    height:800px;
+    border-color:black;
+    border-width: 3px;
+    background-color: white;
+}
+.kn{
+    position: relative;
+    top:215px;
+    left:75px;
+    width:800px;
+    height:500px;
+}
+.i{
+    font-size: 30px;
+}
+.lite{
+    color:red
+}
+.size{
+    position: relative;
+    top:-50px;
+    font-size: 20px;
+}
+.knim{
+    position: relative;
+    height:400px;
+    width:400px;
+    left:950px;
+    top:-300px;
+}
+.use{
+    position: relative;
+    width:100%;
+    height:600px;
+    background-color: aliceblue;
+}
+.be{
+    top:75px;
+}
+.credits{
+    border-top: 2px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: black;
+    border-style: solid;
+    top:150px;
+    position: relative;
+    width:100%;
+    height:50px;
+    text-align: center;
+}
+.new{
+    width:100%;
+    height:500px;
+    background-color: aqua;
+    position: relative;
+}
+.contact{
+    width:100%;
+    height: 500px;
+    background-color: aliceblue;
+    position: relative;
+    top:120px;
+}
+.person{
+    top:50px;
+    position: relative;
+    height:300px;
+    width:200px;
+    background-color: beige;
+    position: relative;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.one{
+    left:20px;
+}
+.two{
+    left:320px;
+    top:-250px;
+}
+.three{
+    left:640px;
+    top:-550px;
+}
+.four{
+    left:960px;
+    top:-850px;
+}
+.five{
+    top:-1150px;
+    left:1280px;
+}
+h2{
+    position: relative;
+    top:20px;
+}
+.im{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left:25px;
+}
+.why{
+    width:100%;
+    height: 500px;
+    background-color: aliceblue;
+    position: relative;
+    top:115px;
+}
+.br{
+    width:700px;
+    height:400px;
+    position: relative;
+    top:75px;
+    left:70px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.fo{
+    width:400px;
+    height: 400px;
+    position: relative;
+    left:950px;
+    top:-350px;
+}
+.beer{
+    width:100%;
+    height:300px;
+    position: relative;
+    top:150px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.asd{
+    top:-50px;
+}
